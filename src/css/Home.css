@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(128, 174, 215);
+}
+
+.main-home{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 45px;
+    border-radius: 15px; 
+    text-align: center;
+    background-color:  rgb(231, 243, 252); 
+}
+
+.title{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}

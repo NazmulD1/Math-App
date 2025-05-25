@@ -1,0 +1,46 @@
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.link-button {
+    background-color: white;
+    width: 10vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin: 10px auto;
+}
+
+.addUser {
+    margin: 50px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0,0, 0.065);
+    max-width: 400px;
+}
+
+.addUserForm .inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.addUserForm .inputGroup label {
+    margin-top: 10px;
+}
+
+.addUserForm .inputGroup input {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.inputGroup button {
+    margin-top: 10px;
+}
+
+.addUser h3 {
+    text-align: center;
+}

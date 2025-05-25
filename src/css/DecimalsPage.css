@@ -1,0 +1,92 @@
+.fractions-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.fractions-page h2 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.practice-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+}
+
+.dropdown-button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-button:hover {
+    background-color: #2980b9;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    margin-top: 0.5rem;
+}
+
+.practice-option {
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.practice-option:hover {
+    background-color: #f8f9fa;
+}
+
+.practice-option h3 {
+    color: #2c3e50;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.practice-option p {
+    color: #7f8c8d;
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .fractions-page {
+        padding: 1rem;
+    }
+
+    .practice-dropdown {
+        max-width: 100%;
+    }
+
+    .dropdown-button {
+        font-size: 1rem;
+    }
+
+    .practice-option h3 {
+        font-size: 1.1rem;
+    }
+
+    .practice-option p {
+        font-size: 0.9rem;
+    }
+} 
